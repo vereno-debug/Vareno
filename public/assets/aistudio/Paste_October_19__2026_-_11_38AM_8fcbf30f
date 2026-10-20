@@ -1,0 +1,618 @@
+# VARENO: Complete Premium Portfolio Website Build Prompt
+
+## ROLE AND OBJECTIVE
+
+Act as a senior brand strategist, premium digital art director, conversion-focused UX/UI designer, senior full-stack engineer, technical SEO specialist, accessibility reviewer, and Vercel deployment engineer.
+
+Your task is to build a complete, professional, conversion-oriented website for **VARENO**, a full-stack website development brand.
+
+Do not give me just a plan, mockup, wireframe, or screenshot. Build the actual application, create the necessary source files, implement the functional features, run the available checks, fix the errors you find, and prepare the complete codebase for deployment.
+
+The finished website must look like the work of a serious, technically capable digital development brand. It must communicate commercial value, build trust quickly, showcase development capability, and encourage potential buyers to submit qualified project enquiries.
+
+## 1. BRAND FOUNDATION
+
+**Brand name:** VARENO
+
+**Business category:** Full-stack website development and digital product delivery.
+
+**Website objective:** Convert qualified visitors into paid website development projects and professional development partnerships.
+
+**Current domain situation:** I do not own a personal domain. My initial deployment will use the free Vercel-generated `vercel.app` domain. Do not require a purchased domain. Do not invent a URL or assume that `vareno.vercel.app` is available. Keep the site URL configurable and document how to update it once Vercel assigns the actual production URL.
+
+### Target audience
+
+Build the website around three clearly understood customer segments.
+
+**Audience 1: Small and midsize service businesses**
+
+Founders and business owners who need a credible website, a new landing page, a functional enquiry journey, improvements to an existing website, or a custom digital feature that serves a real business requirement.
+
+**Audience 2: Digital marketing agencies**
+
+Founders and directors of SEO agencies, PPC agencies, performance marketing firms, branding studios, and marketing consultancies that may need additional development capacity for client projects.
+
+**Audience 3: E-commerce and digital businesses**
+
+Business owners who need a defined storefront improvement, a more effective product experience, an integration, or a web application that fits the developer's verified capabilities.
+
+Prioritize the first two audiences throughout the main website. Provide a dedicated pathway for agency partnerships without confusing those visitors with direct business buyers.
+
+### Brand positioning
+
+Position VARENO as a business-minded, reliable website development partner that combines technical implementation with clear communication, careful execution, and an understanding of the purpose behind a website.
+
+The brand should communicate:
+
+- Development built around the client's actual requirements.
+- Clear project scope and commercial expectations.
+- Modern, responsive and usable web experiences.
+- Thoughtful integration of front-end and back-end functionality.
+- Professional communication and a dependable delivery process.
+- Project-based support for agencies that need an external development resource.
+
+Do not promise guaranteed sales, guaranteed conversion rates, guaranteed search rankings, or guaranteed business growth.
+
+### Brand voice
+
+Use a confident, clear, commercially aware, human tone.
+
+Avoid generic agency language, exaggerated marketing claims, artificial urgency, buzzwords, vague promises, and excessively technical language that business owners may not understand.
+
+Write like a capable professional who understands both business requirements and software delivery.
+
+## 2. CREATE A DISTINCTIVE PREMIUM LOGO
+
+The VARENO logo is a central part of the assignment. It must not look like a generic logo created from a stock icon.
+
+Design a custom visual identity consisting of a distinctive geometric symbol and a refined wordmark.
+
+### Symbol design
+
+Create an original geometric V symbol using carefully proportioned architectural strokes, deliberate negative space, and a subtle sense of forward movement.
+
+The symbol should feel precise, sophisticated, balanced, and technically considered.
+
+It must remain recognizable when displayed at small sizes, including as a browser favicon and social avatar.
+
+Do not use:
+
+- Generic code brackets or `</>`.
+- Stock globe icons.
+- Mouse-pointer symbols.
+- Generic lightning bolts.
+- Generic AI symbols.
+- Unmodified icon-library logos.
+- Random gradients used as a substitute for original design.
+- Overly complicated shapes that become illegible when scaled down.
+
+Create the logo as a clean, reusable SVG asset or custom inline SVG. It must not be a screenshot or a raster image.
+
+Create light and dark logo variations where appropriate. Create a matching favicon and social-sharing image.
+
+The VARENO wordmark must have considered typography, deliberate letter spacing, and professional optical kerning.
+
+### Visual identity
+
+Use a restrained, recognizable premium palette:
+
+- Graphite black: `#11130F`
+- Warm ivory: `#F5F3ED`
+- Restrained lime accent: `#D6F36A`
+- Supporting muted greys for borders, secondary text and subtle surfaces.
+
+Use the lime accent selectively, principally for important actions, small indicators and carefully chosen highlights.
+
+Use premium, highly legible typography. Geist or Inter with a suitable system fallback is acceptable. Establish a strong typographic hierarchy, but do not make the interface difficult to read.
+
+The overall identity should feel like a considered digital studio: modern, precise, understated and commercially credible.
+
+Avoid generic template aesthetics, excessive glassmorphism, meaningless 3D blobs, neon-heavy gradients, gratuitous animation and generic stock photos of people using laptops.
+
+Use original interface compositions, custom CSS, SVG illustrations and realistic website mockups to demonstrate design and development capability.
+
+## 3. COMMERCIAL STRATEGY AND CONVERSION
+
+Every major section should help visitors answer five questions:
+
+1. What does VARENO build?
+2. Who is the service intended for?
+3. What business requirement can VARENO help address?
+4. Why should a prospect trust VARENO with a project?
+5. What should the prospect do next?
+
+Use the primary CTA **Discuss a Project** throughout the website.
+
+Use **Explore Selected Work** as the secondary CTA.
+
+Create a separate agency-oriented conversion path using an appropriate CTA such as **Discuss an Agency Partnership**.
+
+The website must use honest persuasion. Do not invent clients, testimonials, reviews, awards, certifications, years of experience, revenue outcomes, conversion statistics, business registrations, client logos, or completed projects.
+
+Since no verified client portfolio has been supplied, create an explicitly labelled section called **Concept Studies**. Every concept must clearly be identified as illustrative work, not a real client engagement.
+
+Do not create fake case-study results or fabricated client stories.
+
+The website should convert through clear positioning, relevant services, credible demonstration of capability, a straightforward working process, useful project information, and a well-designed enquiry form.
+
+Do not use fake countdowns, fake availability counters, invented social proof, or deceptive scarcity.
+
+## 4. WEBSITE ARCHITECTURE
+
+Build a complete, responsive website with the following pages where the framework supports them cleanly:
+
+- `/` Home
+- `/work` Selected Work and Concept Studies
+- `/services` Development Services
+- `/contact` Project Enquiry
+
+Optional concept detail pages may be included if they improve the experience without introducing unnecessary complexity.
+
+If the environment makes separate routes unnecessarily fragile, create a polished single-page website with working section navigation and a functional backend contact route. Do not create empty or broken placeholder pages.
+
+### Header and navigation
+
+Create a custom header featuring the VARENO SVG logo, clear navigation links, and a prominent **Discuss a Project** button.
+
+Include links for Work, Services, Process, About and Contact.
+
+Create a mobile navigation menu that works with touch, keyboard input, focus management and assistive technology.
+
+A sticky header may be used if it improves usability and does not obstruct the page.
+
+### Hero section
+
+The first screen must establish the brand and its value immediately.
+
+Use the following copy direction as the starting point:
+
+Eyebrow:
+
+`VARENO / FULL-STACK WEB DEVELOPMENT`
+
+Headline:
+
+**Web experiences built to move your business forward.**
+
+Supporting text:
+
+`I build thoughtful websites, landing pages and web applications for growing businesses and digital agencies that need clear thinking, dependable development and delivery they can trust.`
+
+Primary CTA: `Discuss a Project`
+
+Secondary CTA: `Explore Selected Work`
+
+Supporting line:
+
+`Business-focused development. Clear scope. Careful execution.`
+
+Improve this copy if you can make it more specific, compelling and commercially effective without adding unsupported claims.
+
+Create a distinctive hero composition using carefully designed interface mockups, layered browser frames, responsive layouts, or an original abstract system that reflects precision and development expertise.
+
+The headline and primary CTA must remain clear on mobile. Do not allow decorative visuals to overwhelm the message.
+
+### Business value section
+
+Explain why a website needs to do more than look attractive.
+
+Present four clear value areas:
+
+1. Clear information architecture and user journeys.
+2. Responsive layouts and usable interfaces.
+3. Useful functionality and integrations.
+4. Maintainable implementation and careful testing.
+
+Describe these as capabilities and intended outcomes, not guarantees of revenue or conversion performance.
+
+### Development services
+
+Create polished service cards for the following offerings.
+
+**Business Website Development**
+
+Responsive websites that communicate the business offer, establish credibility and guide visitors toward an appropriate enquiry or contact action.
+
+**Landing Page Development**
+
+Focused pages built around a particular service, offer, campaign or advertising journey.
+
+**Full-Stack Web Development**
+
+Front-end interfaces connected to server-side logic, APIs, data and third-party services where required and within the agreed scope.
+
+**E-commerce Development**
+
+Storefront improvements and shopping experiences appropriate to the platforms and capabilities that can actually be delivered.
+
+**Website Fixes and Improvements**
+
+Targeted work addressing specific problems with layouts, responsiveness, forms, functionality, usability or performance.
+
+**Agency Development Support**
+
+Project-based or white-label website development support for agencies that need additional delivery capacity.
+
+**Ongoing Maintenance and Improvements**
+
+Agreed maintenance, technical fixes and incremental development under a clearly defined service arrangement.
+
+For each service, explain the problem it addresses, what a potential deliverable may include, and how the client can begin a discussion.
+
+Do not suggest that every project includes SEO, copywriting, hosting, branding, advanced security, maintenance or other extras unless those services are actually included in the agreed scope.
+
+### Selected work and concept studies
+
+Create three distinct and visually polished portfolio concepts.
+
+**Concept 1: Northline Services**
+
+An illustrative lead-generation website for a local service business. Demonstrate clear service information, credibility, mobile usability and a straightforward quote-request journey.
+
+**Concept 2: Ledgerly**
+
+An illustrative software product website. Demonstrate a clear product proposition, structured benefits, realistic interface previews and an appropriate product-enquiry action.
+
+**Concept 3: Form & Field**
+
+An illustrative e-commerce storefront. Demonstrate coherent product hierarchy, responsive product cards, usability and a clear shopping experience.
+
+These are concept studies, not actual clients.
+
+Label each concept visibly. Use wording such as `ILLUSTRATIVE CONCEPT` or `CONCEPT STUDY`.
+
+For each concept, include:
+
+- The business scenario it explores.
+- The user or business need being addressed.
+- Important design and development considerations.
+- A concise explanation of the intended user journey.
+- An invitation to discuss a comparable project.
+
+Do not invent client names beyond these illustrative concept names, fake business outcomes, fake reviews or performance statistics.
+
+Make the three visual previews genuinely different from each other while maintaining a coherent VARENO design system.
+
+Create realistic interface details, including typography, navigation, data displays where applicable, forms, content hierarchy and responsive layouts.
+
+Provide an obvious way to replace these concepts with real client work later.
+
+### Dedicated agency partnership section
+
+This is a strategically important section because VARENO intends to approach digital marketing agencies directly.
+
+Use a commercial heading such as:
+
+**Extend your development capacity without adding permanent headcount.**
+
+Supporting copy direction:
+
+`When a client project requires a new landing page, website build or defined technical improvement, VARENO can be considered as an external development partner. The fit, scope, timeline and responsibilities are agreed before work begins.`
+
+Explain the possible engagement types:
+
+- A defined one-off website project.
+- A landing page or microsite build.
+- A specific technical improvement.
+- Overflow development support under a clear brief.
+
+Explain the potential advantages for an agency: an additional implementation resource, project-based collaboration and an agreed scope without automatically hiring permanent staff.
+
+Do not claim to have existing agency relationships, a current client pipeline or a history of white-label projects unless that information is supplied.
+
+Add a strong **Discuss an Agency Partnership** CTA. This CTA must take the prospect to the contact form and preselect the agency-partnership project type.
+
+### Working process
+
+Explain the delivery approach in four stages.
+
+**01. Discover**
+
+Understand the business, target users, requirement, constraints and intended outcome.
+
+**02. Define**
+
+Agree deliverables, assumptions, scope, timeline, responsibilities and commercial terms.
+
+**03. Build**
+
+Design and implement the agreed experience while communicating progress and addressing relevant questions.
+
+**04. Test and Handover**
+
+Test important user journeys, supported devices and agreed functionality. Resolve agreed issues and provide an appropriate handover.
+
+Do not promise delivery dates before the scope is understood.
+
+### About VARENO
+
+Create a concise, professional About section that communicates a focused and business-aware approach to web development.
+
+Do not invent a founder biography, location, education, employment history, team members, origin story, awards or years of experience.
+
+Keep the founder introduction configurable so that accurate personal information can be added later.
+
+If no biography has been supplied, write credible neutral brand copy rather than creating a fictional story.
+
+### Technology and capability section
+
+Create a clean section that communicates technical capability without making unverified claims.
+
+Organize capabilities by area, where appropriate:
+
+- Front-end implementation.
+- Back-end and server-side development.
+- API and third-party integrations.
+- Data handling.
+- Responsive interface development.
+- Testing and deployment.
+
+Only display the capabilities I can actually deliver.
+
+Do not publish specific languages, frameworks, databases, certifications or tools unless they have been confirmed. Place technology claims in an editable central configuration so they can be updated easily.
+
+### FAQ
+
+Include clear answers to practical buyer questions:
+
+- What kinds of websites and development projects does VARENO take on?
+- Does VARENO work with marketing agencies?
+- Can VARENO improve an existing website?
+- How is a project priced?
+- How long does a website project take?
+- What information is needed before work starts?
+- Can a project start with a small, defined piece of work?
+
+Explain that price, scope and timing depend on the actual requirements.
+
+Avoid guaranteeing that every project or deadline can be accepted.
+
+## 5. HIGH-QUALITY PROJECT ENQUIRY FORM
+
+The enquiry form is one of the most important conversion elements.
+
+Create a visually polished, accessible, mobile-friendly form that helps qualify serious enquiries without overwhelming the user.
+
+Include:
+
+- Full name.
+- Work email address.
+- Company or business name, optional.
+- Current website URL, optional.
+- Project type.
+- Estimated budget.
+- Desired timeline.
+- Brief project description.
+- Optional preferred contact method.
+- Appropriate consent language for follow-up.
+
+Project type options:
+
+- Business website.
+- Landing page.
+- Full-stack web application.
+- E-commerce.
+- Website fix or improvement.
+- Agency partnership.
+- Ongoing maintenance.
+- Not sure yet.
+
+Budget options:
+
+- Under $500.
+- $500 to $1,000.
+- $1,000 to $2,500.
+- $2,500 to $5,000.
+- $5,000+.
+- Not sure yet.
+
+Timeline options:
+
+- Urgent.
+- Within 2 to 4 weeks.
+- Within 1 to 2 months.
+- Flexible.
+- Not sure yet.
+
+Use clear field labels, sensible validation and helpful feedback. The form must behave properly on mobile and desktop.
+
+### Full-stack form implementation
+
+Implement a real server-side submission path compatible with Vercel.
+
+Prefer a server-side route handler or a Vercel-compatible serverless function. Use a service such as Resend to deliver notifications to the configured receiving inbox.
+
+Use environment variables such as:
+
+`RESEND_API_KEY`
+
+`CONTACT_TO_EMAIL`
+
+`CONTACT_FROM_EMAIL`
+
+`NEXT_PUBLIC_SITE_URL`
+
+Do not invent the receiving email address. I have not provided one yet.
+
+Do not place API keys or secrets in client-side code.
+
+Implement:
+
+- Server-side validation.
+- Input sanitization.
+- Appropriate error handling.
+- A simple honeypot anti-spam field.
+- Lightweight abuse protection suitable for serverless deployment.
+- Loading, validation, success and error states.
+
+The interface must never show success unless the server confirms that the submission was successfully handled.
+
+If email delivery is not configured, do not silently discard the enquiry or pretend it was sent. Display a clear message explaining that the contact system still needs configuration. Hide incomplete contact options until the necessary details are supplied.
+
+A database is not required for this initial project unless a clear technical requirement justifies it. Do not add unnecessary paid services.
+
+Document all required setup steps in the README.
+
+## 6. PREMIUM DESIGN AND INTERACTION
+
+Use a coherent visual system across all routes and components.
+
+Pay careful attention to:
+
+- Spacing and alignment.
+- Typography and readable line lengths.
+- Button geometry and consistent action styles.
+- Border weight and contrast.
+- Card hierarchy.
+- Section transitions.
+- Mobile composition.
+- Interface mockup quality.
+- Responsive navigation.
+- Focus and hover states.
+- Animation timing.
+- Reduced-motion support.
+
+Use subtle micro-interactions only when they support usability.
+
+Do not make the website dependent on animation to communicate its message.
+
+Avoid excessive scroll effects, forced popups, fake live chat, irrelevant stock images, meaningless badges and oversized paragraphs.
+
+The website should feel deliberate, fast, premium and professional.
+
+## 7. TECHNICAL ARCHITECTURE AND VERCEL DEPLOYMENT
+
+The deployment target is Vercel, initially using its free generated `vercel.app` URL.
+
+No purchased personal domain is required for the first launch.
+
+Prefer the following architecture:
+
+- Next.js App Router.
+- TypeScript.
+- Tailwind CSS or carefully structured CSS modules.
+- Reusable and maintainable components.
+- Server-side route handler for the enquiry form.
+- Accessible interface components.
+- Custom SVG brand assets.
+- Minimal, appropriate dependencies.
+
+Google AI Studio Build mode may use a React and Node.js application structure. If it cannot reliably produce and preview a Next.js App Router project, use React, TypeScript and Vite with a Vercel-compatible serverless function under `/api` for the contact endpoint.
+
+Do not create a permanently running Express server and assume it will work on Vercel without adapting it.
+
+Choose one architecture and implement it consistently. Document the deployment approach in the README.
+
+The project must include:
+
+- A correct `package.json`.
+- Working development and build scripts.
+- A suitable file structure.
+- A `.env.example` with variable names and dummy placeholders only.
+- A README explaining local setup.
+- Instructions for email-provider configuration.
+- Instructions for GitHub synchronization.
+- Instructions for importing the repository into Vercel.
+- Instructions for setting the actual production site URL.
+- No exposed credentials.
+- No reliance on local file writes for persistent production data.
+- No unnecessary paid APIs.
+
+Do not make the project dependent on a custom domain.
+
+Do not hard-code an assumed URL such as `https://vareno.vercel.app`. After deployment, update the public site URL and metadata with the actual assigned Vercel URL.
+
+## 8. SEO, ACCESSIBILITY AND PERFORMANCE
+
+Implement technical and on-page SEO carefully.
+
+Include:
+
+- An accurate page title.
+- A concise meta description.
+- A logical heading hierarchy.
+- Semantic HTML.
+- Accessible navigation.
+- Descriptive internal links.
+- Useful alternative text where images communicate information.
+- Open Graph metadata.
+- A matching favicon.
+- Canonical URL configuration using the actual production URL.
+- A correctly configured sitemap and robots file where appropriate.
+- Sensible structured data only when the underlying business details are accurate.
+
+Do not invent a physical business address, local business registration, reviews or fake structured-data ratings.
+
+Optimize page performance, image handling and client-side JavaScript. Use responsive layouts and avoid unnecessary dependencies.
+
+Test keyboard navigation, focus indicators, contrast, form labels, reduced-motion behavior and important mobile interactions.
+
+## 9. CENTRALIZED CONTENT AND EASY EDITING
+
+Create a central configuration or content file for:
+
+- Brand name.
+- Tagline.
+- Services.
+- Concept portfolio cards.
+- Founder introduction.
+- Verified technologies.
+- Contact email.
+- Social links.
+- Site URL.
+
+Make it straightforward to update these details without rewriting multiple components.
+
+Do not display fake social accounts, fake phone numbers, fabricated email addresses, obvious placeholders or dead links on the live site.
+
+If a required detail is not yet supplied, document it clearly and hide the incomplete feature until configuration is complete.
+
+## 10. PRE-LAUNCH TESTING
+
+Before declaring the project ready, perform all checks that the environment permits.
+
+1. Build the complete application.
+2. Run available development and production build checks.
+3. Fix observed code errors.
+4. Test the layout at mobile, tablet and desktop sizes.
+5. Test all navigation links.
+6. Test all CTA buttons.
+7. Verify form validation.
+8. Verify form success and failure handling.
+9. Verify that the unconfigured form state does not falsely claim to send an enquiry.
+10. Verify that no API secret is included in client-side code.
+11. Confirm all illustrative portfolio pieces are clearly labelled as concepts.
+12. Confirm that no client results, testimonials, awards or credentials have been invented.
+13. Verify that the custom logo appears consistently in the header, footer and favicon.
+14. Confirm that the selected architecture is appropriate for the intended Vercel deployment.
+15. Document all remaining configuration tasks.
+
+Do not claim that deployment has succeeded unless you actually deploy the site.
+
+Do not claim that production build tests passed if they could not be executed.
+
+Clearly distinguish completed, tested functionality from items that still require configuration or verification.
+
+## 11. FINAL EXECUTION REQUIREMENT
+
+Start building the actual website now.
+
+Make strong professional design decisions without asking me to approve every small choice.
+
+Prioritize:
+
+- A distinctive, custom VARENO logo.
+- A premium, non-generic design system.
+- Clear business value.
+- High-quality interface mockups.
+- Honest presentation of work.
+- A focused commercial proposition.
+- A conversion-oriented project enquiry experience.
+- A useful agency partnership pathway.
+- A secure, functional server-side contact implementation.
+- Full responsiveness.
+- SEO, accessibility and performance.
+- A maintainable source codebase.
+- Deployment using the free Vercel domain.
+
+Deliver the complete application, source files, configuration instructions and handoff report. Do not stop after providing a plan or visual concept.
